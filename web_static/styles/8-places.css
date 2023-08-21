@@ -10,7 +10,7 @@
 /*format price by night*/
 .places .price_by_night {
 	border: 4px solid #ff5a5f;
-	border-radius: 100%;
+	border-radius: 50%;
 	height: 60px;
 	color: #FF5A5F;
 	font-size: 30px;
@@ -53,4 +53,11 @@
 /*footer position*/
 footer {
 	position: relative;
+}
+
+.places {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width: 100%;
 }
