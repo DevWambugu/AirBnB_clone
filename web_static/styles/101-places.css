@@ -17,6 +17,9 @@
    
   /* Price by night circle. Define radius width */
   .places .price_by_night {
+    float: right;
+    margin-top: -10px;
+    margin-right: -10px;
     align-items: center;
     border: 4px solid #ff5a5f;
     border-radius: 50%;
@@ -34,17 +37,17 @@
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     display: flex;
-    flex-direction: row;
     height: 80px;
     justify-content: space-around;
     text-align: center;
   }
-  
+ 
   /* define Width of each guest/room/bathroom */
   .places .max_guest,
   .places .number_rooms,
   .places .number_bathrooms{
     width: 100px;
+    flex-direction: row;
   }
   
   /* Padding around owner */
